@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.ghost{
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    transform: translate(10%, -50%);
+    height: 250px;
+    transition: 0.5s;
+}
+.ghost:hover{
+    filter: blur(70px);
+opacity: 0;
+}
+ul{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    transform: translate(10%, -50%);
+    display: flex;
+    list-style: none;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(238, 151, 255);
+
+}
+
+li{
+    font-size: 5em;
+    letter-spacing: 20px;
+    transition: 1s;
+}
+li:hover{
+    filter: blur(70px);
+    opacity: 0;
+}
+li:nth-child(1){
+    animation-delay: 0.1
+}
+li:nth-child(1){
+    animation-delay: 0.2
+}
+li:nth-child(1){
+    animation-delay: 0.3
+}
+li:nth-child(1){
+    animation-delay: 0.4
+}
